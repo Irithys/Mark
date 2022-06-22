@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>书签标记</title>
+    <meta name="description" content="咕噜？">
+    <link rel="shortcut icon" href="https://mark.irithys.com/images/check-mark.ico">
+    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://mark.irithys.com/media/css/icomoon.css">
+    <link rel="stylesheet" href="https://mark.irithys.com/media/css/main.css?v=1655890270269">
+  </head>
+
+<body class="page-body">
+    <!-- skin-white -->
+    <div class="page-container">
+        <div class="sidebar-menu toggle-others fixed">
+            <div class="sidebar-menu-inner">
+                <header class="logo-env">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="https://mark.irithys.com" class="logo-expanded">
+                            <img src="https://mark.irithys.com/images/avatar.png"  style="height:68px" alt="" />
+                        </a>
+                        <a href="https://mark.irithys.com" class="logo-collapsed">
+                            <img src="https://mark.irithys.com/media/images/eduifuns.png" width="40" alt="" />
+                        </a>
+                    </div>
+                    <div class="mobile-menu-toggle visible-xs">
+                        <a href="#" data-toggle="mobile-menu">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </div>
+                </header>
+                <ul id="main-menu" class="main-menu">
+                    <!-- li 加 has-sub 开启分组-->
+                    <li class="has-sub">
+                        <a>
+                            <i class="fa-solid fa-dove"></i>
+                            <span class="title">那些想做的事</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#后花园" class="smooth">
+                                    <i class="fa-brands fa-pagelines"></i>
+                                    <span class="title">后花园</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#频率就像喝水" class="smooth">
+                                    <i class="fa-solid fa-chess-pawn"></i>
+                                    <span class="title">频率就像喝水</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#开始摸鱼" class="smooth">
+                                    <i class="fa-brands fa-playstation"></i>
+                                    <span class="title">开始摸鱼</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="has-sub">
+                        <a>
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <span class="title">使用工具</span>
+                        </a>
+                        <!-- ul li 格式添加子分组-->
+                        <ul>
+                            <li>
+                                <a href="#解放双手可以摸鱼" class="smooth">
+                                    <i class="fa-solid fa-hammer"></i>
+                                    <span class="title">解放双手可以摸鱼</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#可以试试" class="smooth">
+                                    <i class="fa-solid fa-face-smile-beam"></i>
+                                    <span class="title">可以试试</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+           
+                    <!-- <li class="submit-tag"> -->
+                    <!--     <a href="https://mark.irithys.com/about">-->
+                    <!--         <i class="icon-heart"></i>-->
+                    <!--         <span class="title">关于本站</span>-->
+                    <!--     </a>-->
+                    <!-- </li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <nav class="navbar user-info-navbar" role="navigation">
+                <!-- User Info, Notifications and Menu Bar -->
+                <!-- Left links for user info navbar -->
+                <ul class="user-info-menu left-links list-inline list-unstyled">
+                    <li class="hidden-sm hidden-xs">
+                        <a href="#" data-toggle="sidebar">
+                            <i class="icon-bar"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 今日诗词 -->
+            <div id="poem_content">
+                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
+            </div>
+            <!-- 今日诗词 -->
+            <br />
+            <!-- 后花园 -->
+            
+            <h4 class="text-gray"><i class="fa-brands fa-pagelines" style="margin-right: 7px;" id="后花园"></i>后花园</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/fandom_kill.svg"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>博客</strong>
+                                </a>
+                                <p class="overflowClip_2">吕楪的博客,名字叫沉醒凝香</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://music.irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://music.irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/audio.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>音频</strong>
+                                </a>
+                                <p class="overflowClip_2">搭建着玩儿的音频网站，大概率是自娱自乐</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://me.irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://me.irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/fandom_front.svg"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>花儿也不曾落下</strong>
+                                </a>
+                                <p class="overflowClip_2">上一个版本的后花园，就是一个名片</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://fairy.irithys.com/dashboard', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://fairy.irithys.com/dashboard">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/umami.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Umami</strong>
+                                </a>
+                                <p class="overflowClip_2">网站流量数据统计</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://vault.thymrios.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://vault.thymrios.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/bitwarden.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Bitwarden</strong>
+                                </a>
+                                <p class="overflowClip_2">密码管理系统</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://status.irithys.com/status', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://status.irithys.com/status">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/Uptime-Kuma.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Uptime Kuma</strong>
+                                </a>
+                                <p class="overflowClip_2">服务器状态监测</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://im.irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://im.irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/mastodon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>手书</strong>
+                                </a>
+                                <p class="overflowClip_2">长毛象实例，蛮好玩的</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://epoch.irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://epoch.irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/epoch.svg"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>epoch</strong>
+                                </a>
+                                <p class="overflowClip_2">书影音各种各样的记录</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://file.irithys.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://file.irithys.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/h5ai.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>文件获取</strong>
+                                </a>
+                                <p class="overflowClip_2">个人文件存放</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="fa-solid fa-chess-pawn" style="margin-right: 7px;" id="频率就像喝水"></i>频率就像喝水</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://outlook.live.com/mail', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://outlook.live.com/mail">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://outlook.live.com/mail/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Hotmail邮箱</strong>
+                                </a>
+                                <p class="overflowClip_2">微软家的邮箱，一直在用</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://blog-api-7fxqr4v8e-thymrios.vercel.app/ui', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://blog-api-7fxqr4v8e-thymrios.vercel.app/ui">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://waline.js.org/assets/icon/favicon-32x32.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Waline</strong>
+                                </a>
+                                <p class="overflowClip_2">博客后端评论管理</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://vercel.com/dashboard', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://vercel.com/dashboard">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://assets.vercel.com/image/upload/q_auto/front/favicon/vercel/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Vercel</strong>
+                                </a>
+                                <p class="overflowClip_2">网站部署工具</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://app.supabase.io', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://app.supabase.io">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://app.supabase.io/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Supabase</strong>
+                                </a>
+                                <p class="overflowClip_2">PostgreSQL托管</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.office.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.office.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/irithys/cdn/ico/office365.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Office365</strong>
+                                </a>
+                                <p class="overflowClip_2">Office365后台管理</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bot-hello.2heng.xin', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://bot-hello.2heng.xin">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://bot-hello.2heng.xin/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>小森林机器人实验室</strong>
+                                </a>
+                                <p class="overflowClip_2">Mastodon几种机器人地址</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://filehelper.weixin.qq.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://filehelper.weixin.qq.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://pc.weixin.qq.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>微信传输助手</strong>
+                                </a>
+                                <p class="overflowClip_2">微信传输助手网页版</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.inoreader.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.inoreader.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.inoreader.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Inoreader</strong>
+                                </a>
+                                <p class="overflowClip_2">重新掌控你的新闻订阅源</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            
+            <h4 class="text-gray"><i class="fa-solid fa-hammer" style="margin-right: 7px;" id="解放双手可以摸鱼"></i>解放双手可以摸鱼</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tool2d.com/#icon', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://tool2d.com/#icon">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://tool2d.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>PNG转ICO</strong>
+                                </a>
+                                <p class="overflowClip_2">就像名字一样</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://zhongguose.com', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="http://zhongguose.com">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/thymrios/cdn/ico/zhongguochuantongse.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>中国传统色</strong>
+                                </a>
+                                <p class="overflowClip_2">可以找到很心水的颜色</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.toicon.com/series', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.toicon.com/series">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/thymrios/cdn/ico/kwi-icon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>toicon</strong>
+                                </a>
+                                <p class="overflowClip_2">可爱的图标</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://fontawesome.com/search', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://fontawesome.com/search">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://cdn.jsdelivr.net/gh/thymrios/cdn/ico/fontawesome.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>FontAwesome</strong>
+                                </a>
+                                <p class="overflowClip_2">SVG图片和图标都在这儿</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://html5up.net/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://html5up.net/">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://html5up.net/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>html5up</strong>
+                                </a>
+                                <p class="overflowClip_2">漂亮的网页模板，可以直接使用，重点是免费诶</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://whoer.net/zh', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://whoer.net/zh">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://whoer.net/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>whoer</strong>
+                                </a>
+                                <p class="overflowClip_2">检测自己的IP是否被代理</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://wantwords.net', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://wantwords.net">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://wantwords.net/static/image/zm2.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Want words反向词典</strong>
+                                </a>
+                                <p class="overflowClip_2">查询各种词的相近词语</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.aconvert.com/cn/image/webp-to-jpg', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://www.aconvert.com/cn/image/webp-to-jpg">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://www.aconvert.com/favicon.ico"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Webp转Jpg</strong>
+                                </a>
+                                <p class="overflowClip_2">为什么2022年了还有网站不支持webp啊</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 在线工具 -->
+
+            <!-- 实用软件 -->
+            
+            <h4 class="text-gray"><i class="fa-brands fa-playstation" style="margin-right: 7px;" id="开始摸鱼"></i>开始摸鱼</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://mox.moe', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mox.moe">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://mox.moe/img/mox-logo-256.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Mox</strong>
+                                </a>
+                                <p class="overflowClip_2">漫画站</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 实用软件 -->
+
+            <!-- 线上课程 -->
+            
+            <h4 class="text-gray"><i class="fa-solid fa-face-smile-beam" style="margin-right: 7px;" id="可以试试"></i>可以试试</h4>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://mycroft.ai', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://mycroft.ai">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://mycroft.ai/wp-content/uploads/2019/01/mycroft-logo-transparent.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Mycroft</strong>
+                                </a>
+                                <p class="overflowClip_2">一个开源的Linux语音助手</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://docs.joinplu.me', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="https://docs.joinplu.me">
+                        <div class="xe-comment-entry">
+                            <a class="xe-user-img">
+                                <img  data-src="https://docs.joinplu.me/images/favicon.png"  class="lozad img-circle" width="40">
+                            </a>
+                            <div class="xe-comment">
+                                <a href="#" class="xe-user-name overflowClip_1">
+                                    <strong>Plume</strong>
+                                </a>
+                                <p class="overflowClip_2">联邦制的同人写作平台</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <br />
+            
+            <!-- END 线上课程 -->
+
+            <!-- 素材资源 -->
+            
+            <!-- END 素材资源 -->
+
+
+            <!-- Main Footer -->
+            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
+            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
+            <!-- Or class "fixed" to  always fix the footer to the end of page -->
+            <footer class="main-footer sticky footer-type-1">
+                <div class="footer-inner">
+                    <!-- Add your copyright text here -->
+                    <!-- <div class="footer-text"> -->
+                    <!--     咕噜》 <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span> -->
+                    <!-- </div> -->
+                    <div class="go-up">
+                        <a href="#" rel="go-top">
+                            <i class="icon-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    jinrishici.load(function(result) {
+        var sentence = document.querySelector("#poem_sentence")
+        var info = document.querySelector("#poem_info")
+        sentence.innerHTML = result.data.content
+        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
+    });
+    </script>
+
+<script async defer data-website-id="55c0a6dd-b86c-4cf4-b8b3-84b319ed8a97" src="https://fairy.thymrios.com/thymi.js"></script>
+
+    <!--
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    -->
+    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 锚点平滑移动 -->
+    <script type="text/javascript">
+    $(document).ready(function() {
+         //img lazy loaded
+         const observer = lozad();
+         observer.observe();
+
+        $(document).on('click', '.has-sub', function(){
+            var _this = $(this)
+            if(!$(this).hasClass('expanded')) {
+               setTimeout(function(){
+                    _this.find('ul').attr("style","")
+               }, 300);
+              
+            } else {
+                $('.has-sub ul').each(function(id,ele){
+                    var _that = $(this)
+                    if(_this.find('ul')[0] != ele) {
+                        setTimeout(function(){
+                            _that.attr("style","")
+                        }, 300);
+                    }
+                })
+            }
+        })
+        $('.user-info-menu .hidden-sm').click(function(){
+            if($('.sidebar-menu').hasClass('collapsed')) {
+                $('.has-sub.expanded > ul').attr("style","")
+            } else {
+                $('.has-sub.expanded > ul').show()
+            }
+        })
+        $("#main-menu li ul li").click(function() {
+            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+            $(this).addClass('active'); // 添加当前元素的样式
+        });
+        $("a.smooth").click(function(ev) {
+            ev.preventDefault();
+
+            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+            ps_destroy();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top - 30
+            }, {
+                duration: 500,
+                easing: "swing"
+            });
+        });
+        return false;
+    });
+
+    var href = "";
+    var pos = 0;
+    $("a.smooth").click(function(e) {
+        $("#main-menu li").each(function() {
+            $(this).removeClass("active");
+        });
+        $(this).parent("li").addClass("active");
+        e.preventDefault();
+        href = $(this).attr("href");
+        pos = $(href).position().top - 30;
+    });
+    </script>
+    <!-- Bottom Scripts -->
+    <script src="https://mark.irithys.com/media/js/bootstrap.min.js"></script>
+    <script src="https://mark.irithys.com/media/js/TweenMax.min.js"></script>
+    <script src="https://mark.irithys.com/media/js/resizeable.js"></script>
+    <script src="https://mark.irithys.com/media/js/xenon-toggles.js"></script>
+    <script src="https://mark.irithys.com/media/js/xenon-custom.js"></script>
+    <script src="https://mark.irithys.com/media/js/lozad.js"></script>
+    <script src="https://mark.irithys.com/media/js/LetterAvatar.js"></script>
+</body>
+
+
+
+</html>
